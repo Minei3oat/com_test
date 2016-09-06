@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.6.2" method="upgrade">
+	<name>com_test</name>
+	<creationDate>September 2016</creationDate>
+	<author>Minei3oat</author>
+	<authorUrl>https://github.com/Minei3oat</authorUrl>
+	<version>0.0.1</version>
+	<description>For Testing Accordions</description>
+	<files folder="site">
+		<folder>views</folder>
+		<filename>test.php</filename>
+		<filename>controller.php</filename>
+	</files>
+	<administration>
+	</administration>
+</extension>
