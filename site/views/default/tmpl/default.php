@@ -1,15 +1,11 @@
 <?php
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_helloworld
- *
- * @copyright   Copyright (C) 2005 - 2015 Open Source Matters, Inc. All rights reserved.
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
 
 // No direct access
 defined('_JEXEC') or die('Restricted access');
 
+// Add CSS for making accordion-toggle.collapsed visible
+JFactory::getDocument()->addStyleDeclaration('.accordion-toggle {background: red;} .accordion-toggle.collapsed {background: green;}');
+// Add accordion with five slides
 for ($i = 0; $i < 6; $i++)
 {
 	echo JHtml::_('bootstrap.startAccordion','accordions',array('active' => 'slide-1', 'parent' => 'accordions'));
