@@ -4,7 +4,7 @@
 defined('_JEXEC') or die('Restricted access');
 
 // Add CSS for making accordion-toggle.collapsed visible
-JFactory::getDocument()->addStyleDeclaration('.accordion-toggle {background: red;} .accordion-toggle.collapsed {background: green;}');
+JFactory::getDocument()->addStyleDeclaration('#accordions .accordion-toggle {background: red;} #accordions .accordion-toggle.collapsed {background: green;}');
 // Add accordion with five slides
 for ($i = 0; $i < 6; $i++)
 {
